@@ -1,332 +1,45 @@
 <!DOCTYPE html>
-<!-- saved from url=(0049)file:///home/agni/site/W3.CSS%20Template%202.html -->
-<html lang="en">
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Nikhil Batteries</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./files/w3.css">
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./files/css">
-<link rel="stylesheet" href="./files/css(1)">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
 
-<link rel="stylesheet" href="./files/font-awesome.min.css">
-<style>
-  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-  /* .fa-anchor,.fa-coffee {font-size:200px} */
-</style>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="portfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <script data-dapp-detection="">(function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){return window.__disableDappDetectionInsertion||n(),t}})}})();</script> -->
+  <title>portfolio</title>
+  <link rel="manifest" href="manifest.json">
 </head>
-
-
 <body>
-
-
-  <!-- Navbar -->
-<div class="w3-top">
-  <nav class="navbar navbar-expand-md navbar-collapse bg-dark navbar-dark">
-    <div class="container-fluid">
-      <div>      
-        <a href="" class="navbar-brand text-warning font-weight-bold">Nikhil batteries</a>
-      </div>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsenavbar">
-            <span class="navbar-toggler-icon"></span>                       
-      </button>
-
-
-      <div class="collapse navbar-collapse text-center" id="collapsenavbar">
-        <ul class="nav navbar-nav ml-auto text-white">
-          <li class="nav-item">
-            <a href="#service" class="nav-link text-white"><b>services</b></a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link text-white"><b>about us</b></a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link text-white"><b>contacts</b></a>
-          </li>
-          <li class="nav-item">
-            <a href="#shop" class="nav-link text-white"><b>shop</b></a>
-          </li>
-          <li class="nav-item">
-            <a href="tel:+917820961924" class="nav-link text-white">
-              <i class="fa fa-phone" aria-hidden="true"></i> <b>7820961924</b>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-
-
-
-<!-- Header -->
-<header class="grid1">
-  <div class="container banner-text" style="padding-top: 37vh;">
-    <h1 class="text-warning">Nikhil batteries</h1>
-    <p class="text-warning">Car Battery | Inverter Battery | 2 Wheelers Battery | Inverters</p>
-    
-    <div class="btn container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div class="btn-shop-now">
-            <a href="#shop"><button class="w3-button w3-round w3-orange w3-hover-purple" style="width: 100%;">Shop now</button></a>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-          <div class="btn-call-now ">
-            <a href="tel:+917820961924">
-              <button class="w3-button w3-round w3-green w3-hover-purple" style="width: 100%;">Call now</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-<section class="container our_services text-center" id="shop">
-	<h1>SHOP BY CATEGORY</h1>
-  <div class="row rowsetting">
-		<div class="col-lg-3 col-md-6 col-sm-6 col-12 d-block ml-auto w3-center" style="padding: 10px;">
-      <div class="card w3-center">
-        <img class="card-img-top" src="./assets/bike.gif" alt="Card image">
-        <div class="card-body">
-          <h4 class="card-title">Car Batteries</h4>
-          <!-- <p class="card-text">Some example text.</p> -->
-          <a href="#" class="btn btn-primary">Shop Now</a>
-        </div>
-      </div>
-	</div>
-		<div class="col-lg-3 col-md-6 col-sm-6 col-12 d-block ml-auto w3-center" style="padding: 10px;">
-      <div class="card w3-center">
-        <img class="card-img-top" src="./assets/car2.gif" alt="Card image">
-        <div class="card-body">
-          <h4 class="card-title">Car Batteries</h4>
-          <!-- <p class="card-text">Some example text.</p> -->
-          <a href="#" class="btn btn-primary">Shop Now</a>
-        </div>
-      </div>
-		</div>
-
-		<div class="col-lg-3 col-md-6 col-sm-6 col-12 d-block ml-auto" style="padding: 10px;">
-      <div class="card w3-center">
-        <img class="card-img-top" src="./assets/truck.gif" alt="Card image">
-        <div class="card-body">
-          <h4 class="card-title">Truck Batteries</h4>
-          <!-- <p class="card-text">Some example text.</p> -->
-          <a href="#" class="btn btn-primary">Shop Now</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-lg-3 col-md-6 col-sm-6 col-12 d-block ml-auto w3-center"  style="padding: 10px;">
-      <div class="card w3-center">
-        <img class="card-img-top" src="./assets/home2.gif" alt="Card image">
-        <div class="card-body">
-          <h4 class="card-title">Inverter Batteries</h4>
-          <!-- <p class="card-text">Some example text.</p> -->
-          <a href="#" class="btn btn-primary">Shop Now</a>
-        </div>
-      </div>
-    </div>
-    
-	</div>
-</section>
-
-
-<div id="demo" class="carousel slide w3-center slide1 w3-hide-small" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
-  </ul>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="mx-auto d-block img-fluid" src="./assets/automotive-batteries-banner01.jpg" alt="Chicago">
-    </div>
-    <div class="carousel-item">
-      <img class="mx-auto d-block img-fluid" src="./assets/automotive-batteries-banner02.jpg" alt="New York">
-    </div>
-    <div class="carousel-item">
-      <img class="mx-auto d-block img-fluid" src="./assets/automotive-batteries-banner03.jpg" alt="New York">
-    </div>
-    <div class="carousel-item">
-      <img class="mx-auto d-block img-fluid" src="./assets/automotive-batteries-banner04.jpg" alt="New York">
-    </div>
-  </div>
-
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  
-</div>
-  
-
-<div id="demo-mobile" class="carousel slide w3-center slide1 w3-hide-medium w3-hide-large" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo-mobile" data-slide-to="0" class="active"></li>
-    <li data-target="#demo-mobile" data-slide-to="1"></li>
-    <li data-target="#demo-mobile" data-slide-to="2"></li>
-    <li data-target="#demo-mobile" data-slide-to="3"></li>
-  </ul>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="mx-auto d-block img-fluid" src="./assets/banner-mobile4.jpg" alt="Chicago">
-    </div>
-    <div class="carousel-item">
-      <img class="mx-auto d-block img-fluid" src="./assets/banner-mobile5.jpg" alt="New York">
-    </div>
-    <div class="carousel-item">
-      <img class="mx-auto d-block img-fluid" src="./assets/banner-mobile6.jpg" alt="New York">
-    </div>
-    <div class="carousel-item">
-      <img class="mx-auto d-block img-fluid" src="./assets/banner-mobile7.jpg" alt="New York">
-    </div>
-  </div>
-
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo-mobile" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo-mobile" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  
-</div>
-
-
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-container" id="about">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <img src="./assets/problem.png" class="about-us-image">
-    </div>
-
-    <div class="w3-twothird about_ous_2 w3-center">
-      <h1>ABOUT US</h1>
-      <h5 class="">Nikhil Batteries is a franchise of Exide Industries Ltd.</h5>
-
-      <p class="w3-text-grey">
-        We are dealing consumers across Kannaj area anyone can buy Car Batteries, Two Wheeler Batteries, Bike Batteries, Home UPS Batteries, Inverter Batteries, Home UPS Systems, Inverters, Three Wheeler Auto Batteries, Tractor Batteries, Bus Batteries, Truck Batteries, Lorry Batteries, JCB Batteries, Generator Batteries and related services like Battery Health Check Service, Battery Recharge Service, Battery Jump Start Service. Batterywale provides it services at door steps within 4 – 8 hours from confirmed order.
-        Nikhil Batteries bringing complete transparency, convenience and reliability for automobile consumers in replacing and servicing their vehicle batteries.
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- our services -->
-
-<section class="container our_services text-center" id="service">
-	<h1> OUR SERVICES </h1>
-	<!-- <p>mtlb abhi imidiate nhi soche hai sochege</p> -->
-	<div class="row rowsetting">
-		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto">
-			<div class="imgsetting d-block m-auto">
-        <i class="fa fa-cart-arrow-down text-white fa-4x m-auto"></i>
-      </div>
-      <div class="service_desc">
-        <h2>FREE PROFESSIONAL Installation</h2>
-        <p>Cash On Delivery, Best Prices.</p>
-		  </div>
-		</div>
-
-		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto">
-			<div class="imgsetting d-block m-auto">
-        <i class="fa fa-truck text-white fa-4x m-auto"></i>
-      </div>
-      <div class="service_desc">
-				<h2>FREE SHIPPING <br>in 4 - 24 Hours</h2>
-        <p>Not applicable for Bike Batteries .</p>
-      </div>
-		</div>
-
-		<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block ml-auto">
-			<div class="imgsetting d-block m-auto">
-        <i class="fa fa-check text-white fa-4x m-auto"></i>
-      </div>
-      <div class="service_desc">
-				<h2>100% GENUINE <br>BATTERIES & INVERTERS</h2>
-        <p>We sell Authentic Branded Batteries and Inverters</p>
-      </div>
-		</div>
-	</div>
-</section>
-
-
-
-<div class="w3-row-padding w3-container get-in-touch" id="contact">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <img src="./assets/getintouch.png" class="m-auto d-block img-fluid w3-center get-intouch-icon">
-    </div>
-    <div class="w3-twothird contact_us_from w3-center">
-      <h1>GET IN TOUCH</h1>
-      
-      <form methode="post" action="./files/action_page.php">
-        <div class="form-group">
-          <input type="text" class="form-control form-control-style" placeholder="Name" name="name" required>
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control form-control-style" placeholder="Mobile Number" name="number" required>
-        </div>
-        <div class="form-group">
-          <input type="email" class="form-control form-control-style" placeholder="Email" name="email">
-        </div>
-        <div class="form-group">
-          <textarea class="form-control form-control-style" placeholder="message" rows="3" name="message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
-      </form>
-    </div>
-  </div>
-</div>
-
-
-<!-- Footer -->
-<footer class="w3-container w3-black bg-dark w3-padding-24 ftr">
-  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.1172666293605!2d79.92733621440131!3d27.026460185074363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399e6542a5002d87%3A0x3d08bbffeef3b91c!2sNIKHIL%20KANNAUJ%20BATTERY!5e0!3m2!1sen!2sin!4v1606252175473!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
-  <p><a href="https://g.page/nikhil-electricals?share">thathia,kannauj,UP 209734</a></p>
-  <hr class="line"></hr>
-  <div class="w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
- </div>
- <p>Powered by MrAgni lol</p>
-</footer>
-</body></html>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1731475013');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
