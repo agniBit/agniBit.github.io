@@ -6,7 +6,6 @@
             "projectName":"HUMAN POSE ESTIMATION",
             "descriptionPoints":[
                 "localization of human joints in images",
-                "we can use this project for Training Robots, Motion Capture and Augmented Reality,Motion Tracking for Consoles",
                 "implement idea of U-Net and Inception net and train on COCO dataset"
             ],
             "mediaLink":"assets/images/HPE.jpeg",
@@ -32,8 +31,7 @@
             "projectName":"FACE GENERATOR USING PRO-GAN",
             "descriptionPoints":[
                 "Model can generate high quality faces and able to mix style of other face",
-                "implement idea proposed by StyleGAN paper and train on FFHQ dataset",
-                "We can further extend our model to generate other things."
+                "implement idea proposed by StyleGAN paper and train on FFHQ dataset"
             ],
             "mediaLink":"assets/images/out.gif",
             "githubLink":"",
@@ -45,7 +43,6 @@
             "projectName":"FACIAL LANDMARK DETECTION",
             "descriptionPoints":[
                 "Detecting 21 key landmarks on the face and tracking them",
-                "We can further extend our application to apply digital makeup, widgets, masks and so on",
                 "implement idea of HRnet and Inception net and train our model on AFLW (Annotated Facial Landmarks in the Wild) dataset"
             ],
             "mediaLink":"assets/images/FLD.gif",
