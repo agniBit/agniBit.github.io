@@ -1,0 +1,79 @@
+{
+    "projects":[
+        {
+            "category":"Machine Learning",
+            "date":"Sept 2020 – Oct 2020",
+            "projectName":"HUMAN POSE ESTIMATION",
+            "descriptionPoints":[
+                "localization of human joints in images",
+                "we can use this project for Training Robots, Motion Capture and Augmented Reality,Motion Tracking for Consoles",
+                "implement idea of U-Net and Inception net and train on COCO dataset"
+            ],
+            "mediaLink":"assets/images/HPE.jpeg",
+            "githubLink":"https://github.com/AMRABHIAGNI/HUMAN-POSE-ESTIMATION",
+            "fit":""
+        },
+        {
+            "category":"Machine Learning",
+            "date":"Aug 2020",
+            "projectName":"ENEMY DETECTION IN CODM USING YOLOV4",
+            "descriptionPoints":[
+                "Real time enemy detection in Call of Duty Mobile game",
+                "works on all 22 multiplayer maps",
+                "Create custom dataset and train on YOLOv4"
+            ],
+            "mediaLink":"assets/images/CODMenemyDetction.jpeg",
+            "githubLink":"https://github.com/AMRABHIAGNI/ENEMY-DETECTION-IN-CALL-OF-DUTY-MOBILE",
+            "fit":"cover"
+        },
+        {
+            "category":"Machine Learning",
+            "date":"Jan 2020 - June 2020",
+            "projectName":"FACE GENERATOR USING PRO-GAN",
+            "descriptionPoints":[
+                "Model can generate high quality faces and able to mix style of other face",
+                "implement idea proposed by StyleGAN paper and train on FFHQ dataset",
+                "We can further extend our model to generate other things."
+            ],
+            "mediaLink":"assets/images/out.gif",
+            "githubLink":"",
+            "fit":"cover"
+        },
+        {
+            "category":"Machine Learning",
+            "date":"Oct 2019 - Dec 2019",
+            "projectName":"FACIAL LANDMARK DETECTION",
+            "descriptionPoints":[
+                "Detecting 21 key landmarks on the face and tracking them",
+                "We can further extend our application to apply digital makeup, widgets, masks and so on",
+                "implement idea of HRnet and Inception net and train our model on AFLW (Annotated Facial Landmarks in the Wild) dataset"
+            ],
+            "mediaLink":"assets/images/FLD.gif",
+            "githubLink":"https://github.com/AMRABHIAGNI/FACIAL-LANDMARK-DETECTION",
+            "fit":"cover"
+        },
+        {
+            "category":"NLP",
+            "date":"2019 – Aug 2019",
+            "projectName":"TEXT SUMMARIZATION",
+            "descriptionPoints":[
+                "Generate summary of given text data",
+                "Implementation of a seq2seq model and GLOVE embedding for summarization of textual data"
+            ],
+            "mediaLink":"assets/images/TS.png",
+            "githubLink":"https://github.com/AMRABHIAGNI/TEXT-SUMMARIZATION",
+            "fit":""
+        },
+        {
+            "category":"Machine Learning",
+            "date":"Feb 2019 – May 219",
+            "projectName":"CRIC ANALYSIS",
+            "descriptionPoints":[
+                "Predicting the fielding positions for a particular batsman on behavior of his shot selection."
+            ],
+            "mediaLink":"assets/images/cric.jpg",
+            "githubLink":"https://github.com/AMRABHIAGNI/CRICANALYSIS",
+            "fit":"cover"
+        }
+    ]
+}
