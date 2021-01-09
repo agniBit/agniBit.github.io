@@ -53776,7 +53776,7 @@ case 6:case 1:return P.ac(q,r)
 case 2:return P.ab(o,r)}})
 return P.ad($async$qJ,r)},
 F:function(a,b){var s=null,r=b.W(t.w).f.a,q=r.a,p=q*0.1,o=r.b*0.05
-return M.aU(s,T.hh(H.d([M.aU(C.hx,L.ci("Projects",s,s,s,A.cm(s,s,s,s,s,s,s,s,s,s,s,40,s,s,s,s,!0,s,s,s,s,s,s),s),C.k,s,s,s,s,s,s,s,s,s,q*0.8),T.cU(s,40,s),new B.mb(this.qJ(b,"projectDetails.json"),new Y.Qa(),s,t.lH)],t.Y),C.cz,C.aF,C.a4),C.k,s,s,s,s,s,new V.aa(p,o,p,o),s,s,s,s)}}
+return M.aU(s,T.hh(H.d([M.aU(C.hx,L.ci("Projects",s,s,s,A.cm(s,s,s,s,s,s,s,s,s,s,s,40,s,s,s,s,!0,s,s,s,s,s,s),s),C.k,s,s,s,s,s,s,s,s,s,q*0.8),T.cU(s,40,s),new B.mb(this.qJ(b,"assets/projectDetails.json"),new Y.Qa(),s,t.lH)],t.Y),C.cz,C.aF,C.a4),C.k,s,s,s,s,s,new V.aa(p,o,p,o),s,s,s,s)}}
 Y.Qa.prototype={
 $2:function(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h="projects",g=b.b
 if(g!=null){s=H.d([],t.Y)
